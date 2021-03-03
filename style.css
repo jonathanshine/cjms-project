@@ -16,6 +16,7 @@ body {
   padding-top: -200px;
 }
 
+
 .iframe_section {
   display: flex;
   align-items: end;
@@ -42,3 +43,59 @@ body {
     margin-bottom: 10px;
   }
 }
+
+/* nav {
+    margin-top: 138px;
+} */
+
+.card img {
+    padding: 10px;
+    width: 90%;
+    height: 200px;
+  }
+  .card-body {
+    padding: 10px;
+    width: 90%;
+  }
+  
+  .text-muted span {
+    font-weight: bold;
+  }
+  
+  .text-muted span:hover {
+    font-size: 1.25rem;
+  }
+  
+  
+  .iloveberlin {
+  display: flex;
+  }
+  
+  .iloveberlin > p {
+    font-size: 6rem;
+  }
+  
+  .iloveberlin i {
+    color: red;
+    padding-top: 20px;
+   
+  }
+  
+  
+  .background-image {
+    border: 2px solid gray;
+    width: 49.9vw;
+    height: 30vh;
+    background-image: url("./images/branderburggate.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+/* CONTACT FORM STYLING ------------------------------------------ */
+#contact-main {
+  background: url(./images/fernsehturm.jpg) center / cover no-repeat;
+}
+
+
+/* END CONTACT FORM ---------------------------------------------- */
