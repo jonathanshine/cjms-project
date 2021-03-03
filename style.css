@@ -1,42 +1,78 @@
-.card img {
-    padding: 10px;
-    width: 90%;
-    height: 200px;
-  }
-  .card-body {
-    padding: 10px;
-    width: 90%;
-  }
-  
-  .text-muted span {
-    font-weight: bold;
-  }
-  
-  .text-muted span:hover {
-    font-size: 1.25rem;
-  }
-  
-  
-  .iloveberlin {
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.container-accommodations {
+  width: 100vw;
+  height: 80vh;
+}
+
+h1 {
+  margin-left: 98px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-left: 98px;
+  border-bottom: 1px solid black;
+  width: 5%;
+}
+
+.accommodation {
   display: flex;
-  }
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 25%;
+  width: 90%;
+  margin: 0 auto;
   
-  .iloveberlin > p {
-    font-size: 6rem;
-  }
+}
+
+
+
+.accommodation > div {
+  width: 30%;
+  height: 90%;
+}
+
+
+.accommodation {
+  background-color: gray;
+}
+
+.item {
+  display: flex;
+  color: black;
+  background-color: white;
   
-  .iloveberlin i {
-    color: red;
-    padding-top: 20px;
-   
-  }
-  
-  
-  .background-image {
-    border: 2px solid gray;
-    width: 49.9vw;
-    height: 30vh;
-    background-image: url("./images/branderburggate.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+}
+
+.image {
+  height: 100%;
+  width: 49%;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.text {
+  height: 100%;
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: left;
+  padding-left: 10px;
+  font-size: 0.9rem;
+}
+
+
+
+
