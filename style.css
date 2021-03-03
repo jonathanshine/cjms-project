@@ -16,9 +16,9 @@ body {
   padding-top: -200px;
 }
 
-nav {
+/* nav {
     margin-top: 138px;
-}
+} */
 
 .card img {
     padding: 10px;
@@ -62,3 +62,12 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+
+/* CONTACT FORM STYLING ------------------------------------------ */
+#contact-main {
+  background: url(./images/fernsehturm.jpg) center / cover no-repeat;
+}
+
+
+/* END CONTACT FORM ---------------------------------------------- */

@@ -41,59 +41,36 @@
     </header>
 
     <nav class="container-fluid bg-warning sticky-top">
-      <ul class="container-fluid d-flex justify-content-evenly align-items-center list-unstyled p-2 mb-0">
-          <li class="p-3"><a class="text-decoration-none" href="./index.html">Home</a></li>
-          <li class="p-3"><a class="text-decoration-none" href="#">Sightseeing</a></li>
-          <li class="p-3"><a class="text-decoration-none" href="#">Accommodations</a></li>
-          <li class="p-3"><a class="text-decoration-none" href="#">Social Club</a></li>
-          <li class="p-3"><a class="text-decoration-none" href="./contact.html">Contact</a></li>
-          <li class="p-3"><a class="text-decoration-none" href="#">Login</a></li>
-      </ul>
-  </nav>
+        <ul class="container-fluid d-flex justify-content-evenly align-items-center list-unstyled p-2 mb-0">
+            <li class="p-3"><a class="text-decoration-none" href="./index.html">Home</a></li>
+            <li class="p-3"><a class="text-decoration-none" href="#">Sightseeing</a></li>
+            <li class="p-3"><a class="text-decoration-none" href="#">Accommodations</a></li>
+            <li class="p-3"><a class="text-decoration-none" href="#">Social Club</a></li>
+            <li class="p-3"><a class="text-decoration-none" href="./contact.html">Contact</a></li>
+            <li class="p-3"><a class="text-decoration-none" href="#">Login</a></li>
+        </ul>
+    </nav>
 
-  <main>
-    <div class="iloveberlin m-lg-3 ">
-      <p>I</p>
-      <i class="fas fa-heart fa-6x"></i>
-       <p>Berlin</p>
-    </div>
-    <div class="background-image m-lg-3"></div>
-    
-      <!-- beginning container-2 -->
-      <div class="card-group w-50 mt-4 bg-secondary m-lg-3 ">
-          <div class="card m-lg-2">
-            <img src="./images/tour.jpeg" class="card-img-top" alt="tour-guide">
-            <div class="card-body">
-              <h5 class="card-title">Touristics Tours</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Click <span>here</span> for more information</small>
-            </div>
-          </div>
-          <div class="card m-lg-2">
-            <img src="./images/concerts.jpeg" class="card-img-top" alt="concert">
-            <div class="card-body">
-              <h5 class="card-title">Concerts</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Click here for more information</small>
-            </div>
-          </div>
-          <div class="card  m-lg-2">
-            <img src="./images/sports.jpeg" class="card-img-top" alt="running">
-            <div class="card-body">
-              <h5 class="card-title">Sports</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Click here for more information</small>
-            </div>
-          </div>
-        </div>
-        <!-- end container-2 -->
-  </main>
+    <main id="contact-main" class="container text-center my-5 border border-3 border-primary rounded-3">
+        <h1 class="text-white p-3 display-4">Contact Us</h1>
+
+        <form action="#" method="POST" class="contact-form container d-flex flex-column">
+            <label for="fname" class="align-self-start p-2 fw-bold">First name:</label>
+            <input type="text" name="fname" id="fname" required>
+
+            <label for="lname" class="align-self-start p-2 fw-bold">Last name:</label>
+            <input type="text" name="lname" id="lname" required>
+
+            <label for="email" class="align-self-start p-2 fw-bold">Email address:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="commentbox" class="align-self-start p-2 fw-bold">Tell us how we can help you!</label>
+            <textarea name="commentbox" id="commentbox" cols="30" rows="10" minlength="5" placeholder=" Leave message here..."></textarea>
+
+            <input type="button" value="Submit" class="m-3 p-1">
+        </form>
+    </main>
+  
 
         <footer>
 
@@ -215,11 +192,11 @@
 
 
                     
-                        <div class="card-1 border-0">
-                            <div class="card-body p-0 pl-1">
-                                <h6 class="mb-5"></h6> <b class="underline">Contact us</b> <br><small>cjms@gmail.com</small><br> <small>Am Karlsbad 11, 10785 Berlin <br>Open Hrs ( Mon - Fri ) 08:30 AM  - 17:30 pm </small>
-                            </div>
-                        </div>
+    <div class="card-1 border-0">
+        <div class="card-body p-0 pl-1">
+            <h6 class="mb-5"></h6> <b class="underline">Contact us</b> <br><small>cjms@gmail.com</small><br> <small>Am Karlsbad 11, 10785 Berlin <br>Open Hrs ( Mon - Fri ) 08:30 AM  - 17:30 pm </small>
+        </div>
+    </div>
                     
           
 
