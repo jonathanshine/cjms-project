@@ -1,18 +1,42 @@
-
 .card img {
     padding: 10px;
-    width: 450px;
-    height: 250px;
-}
-.card-body {
+    width: 90%;
+    height: 200px;
+  }
+  .card-body {
     padding: 10px;
-    width: 450px;
-}
-
-.text-muted span {
+    width: 90%;
+  }
+  
+  .text-muted span {
     font-weight: bold;
-}
-
-.text-muted span:hover {
+  }
+  
+  .text-muted span:hover {
     font-size: 1.25rem;
-}
+  }
+  
+  
+  .iloveberlin {
+  display: flex;
+  }
+  
+  .iloveberlin > p {
+    font-size: 6rem;
+  }
+  
+  .iloveberlin i {
+    color: red;
+    padding-top: 20px;
+   
+  }
+  
+  
+  .background-image {
+    border: 2px solid gray;
+    width: 49.9vw;
+    height: 30vh;
+    background-image: url("./images/branderburggate.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
