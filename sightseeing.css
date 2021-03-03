@@ -20,7 +20,13 @@ section .section-title {
 #what-we-do {
   background: #ffffff;
 }
-#what-we-do .card {
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
   padding: 1rem !important;
   border: none;
   margin-bottom: 1rem;
@@ -28,28 +34,28 @@ section .section-title {
   -moz-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
-#what-we-do .card:hover {
+.card:hover {
   -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
   -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
   box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 }
-#what-we-do .card .card-block {
+.card .card-block {
   padding-left: 50px;
   position: relative;
 }
-#what-we-do .card .card-block a {
+.card .card-block a {
   color: #007b5e !important;
   font-weight: 700;
   text-decoration: none;
 }
-#what-we-do .card .card-block a i {
+.card .card-block a i {
   display: none;
 }
-#what-we-do .card:hover .card-block a i {
+.card:hover .card-block a i {
   display: inline-block;
   font-weight: 700;
 }
-#what-we-do .card .card-block:before {
+.card .card-block:before {
   font-family: FontAwesome;
   position: absolute;
   font-size: 39px;
@@ -99,9 +105,6 @@ section .section-title {
   right: 0;
 }
 
-#topnav {
-  background-color: #f8f9fa;
-}
 .jumbotron {
   background-image: url("/img/ac.jpg");
   background-size: 2000px 600px;
