@@ -1,4 +1,4 @@
-
+/* ASIDE STYLING ------------------------------------------------- */
 .row {
   position: absolute;
   right: 50px;
@@ -39,9 +39,14 @@ i {
 .box-title {
   text-align: center;
 }
+/* END ASIDE  ------------------------------------------------------------ */
+
 
 /*# sourceMappingURL=style.css.map */
 
+
+
+/* FOOTER STYLING ------------------------------------------------ */
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -87,11 +92,12 @@ body {
     margin-bottom: 10px;
   }
 }
+/* END FOOTER --------------------------------------------------------- */
 
-/* nav {
-    margin-top: 138px;
-} */
 
+
+
+/* WELCOME SECTION STYLING -------------------------------------------- */
 .card img {
     padding: 10px;
     width: 90%;
@@ -134,6 +140,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
   }
+  /* END WELCOME SECTION -------------------------------------------- */
+
+
+
 
 
 /* CONTACT FORM STYLING ------------------------------------------ */
