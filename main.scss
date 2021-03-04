@@ -1,0 +1,40 @@
+.row{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    width: 20vw;
+}
+.card-title{
+    text-align: center;
+    border-bottom: 1px dotted;
+    max-width: auto; 
+  
+}
+
+li{
+    font-size: 1rem;
+    display: flex;
+    align-items: baseline;
+    list-style: none;
+  
+}
+i{
+    padding: 15px;
+
+}
+
+.ani{
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;
+}
+.ani:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    transform:translate(20px);
+    transition: .5s ease-in-out;
+    border-radius: 10px;
+
+}
+.box-title{
+text-align: center;
+}
